@@ -1,0 +1,13 @@
+apiVersion: waypoint/v1
+kind: Service
+metadata:
+  name: ui-component-lib
+  description: Reusable UI component library for consistent design system across
+    applications
+  tags:
+    - frontend
+spec:
+  owner: engineering
+  lifecycle: experimental
+  dependsOn: []
+  providesApis: []
